@@ -3,9 +3,10 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>Aplicación Fiori Daniel Invoices}">
         <content>
-             <Panel headerText="Selection Screen">
-                <Label id="labelShipName" text="Ship Name" class="sapUiSmallMargin"/>
+             <Panel id="_IDGenPanel1" headerText="Selection Screen">
+                <Label id="labelShipName" labelFor="shipName" text="Ship Name" class="sapUiSmallMargin"/>
                 <Input id="shipName" width="200px" class="sapUiSmallMarginEnd"/>
+                <Label id="labelCountry" text="Country" class="sapUiSmallMarginEnd"/>
              </Panel>
         </content>
     </Page>
