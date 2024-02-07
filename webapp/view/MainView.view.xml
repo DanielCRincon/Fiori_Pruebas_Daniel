@@ -1,0 +1,9 @@
+<mvc:View controllerName="serviciossap.invoices.controller.MainView"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>Aplicación Fiori Daniel Invoices}">
+        <content>
+             <Text id="_IDGenText1" text="Bienvenido Daniel" ></Text>
+        </content>
+    </Page>
+</mvc:View>
